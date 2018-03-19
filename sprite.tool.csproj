@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ToolCommandName>sprite</ToolCommandName>
+    <PackAsTool>true</PackAsTool>
+    <Version>1.0.0</Version>
+    <Authors>Anuraj</Authors>
+    <Company>dotnetthoughts</Company>
+    <Description>A .NET Core Global tool for building image sprite and css file.</Description>
+    <Copyright>Copyright © dotnetthoughts. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/anuraj/sprite.tool/blob/master/license</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/anuraj/sprite.tool</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/anuraj/sprite.tool/master/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/anuraj/sprite.tool</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>ASP.NET Core, Sprite</PackageTags>
+    <PackageReleaseNotes>Initial version.</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.0-preview1-final" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.0-preview1-26216-02" />
+  </ItemGroup>
+
+</Project>
